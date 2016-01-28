@@ -5,6 +5,9 @@ var count = 0;
 
 var app = express();
 
+app.set('views', 'views');
+app.set('view engine', 'jade');
+
 app.get('/', function (req, res) {
   count += 1;
   res.send('You are visitor #' + count);
