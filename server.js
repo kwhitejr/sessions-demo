@@ -9,6 +9,8 @@ var app = express();
 app.set('views', 'views');
 app.set('view engine', 'jade');
 
+app.use(bodyParser.urlencoded({extended: false}));
+
 app.get('/', function (req, res) {
   count += 1;
   res.send('You are visitor #' + count);
