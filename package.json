@@ -19,6 +19,7 @@
   "homepage": "https://github.com/kwhitejr/sessions-demo#readme",
   "dependencies": {
     "body-parser": "^1.14.2",
+    "cookie-parser": "^1.4.1",
     "express": "^4.13.4",
     "jade": "^1.11.0"
   }
